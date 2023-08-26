@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="headd">
+    <h1 class="ad" style="margin-bottom: 20px;"></h1> </h1>
+    <script src="app.js"></script>
+    <div class="toggle-switch">
+      <label class="switch-label">
+        <input type="checkbox" class="checkbox" onclick="toggleMode()">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </header>
+  <div class="darkmode">
+    <div class="metal">
+      <div class="plastico">
+        <div class="calculator">
+          <div class="title">
+            <h2>Calculator</h2>
+          </div>
+          <div class="display">
+            <input type="text" id="resultado" class="output" readonly>
+          </div>
+          <div class="buttons">
+            <div class="cleanbt">
+              <button onclick="limpar()" style="color: red; border-color: #333;">C</button>
+              <button onclick="apagar()">←</button>
+            </div>
+            <div class="b1">
+              <button onclick="calcular('7')">7</button>
+              <button onclick="calcular('8')">8</button>
+              <button onclick="calcular('9')">9</button>
+              <button onclick="calcular('*')">x</button>
+            </div>
+            <div class="b2">
+              <button onclick="calcular('4')">4</button>
+              <button onclick="calcular('5')">5</button>
+              <button onclick="calcular('6')">6</button>
+              <button onclick="calcular('-')">-</button>
+            </div>
+            <div class="b3">
+              <button onclick="calcular('1')">1</button>
+              <button onclick="calcular('2')">2</button>
+              <button onclick="calcular('3')">3</button>
+              <button onclick="calcular('+')">+</button>
+            </div>
+            <script src="app.js"></script>
+            <button onclick="calcular('/')">÷</button>
+            <button onclick="calcular('0')">0</button>
+            <button onclick="calcular('.')">.</button>
+            <button onclick="calcular('=')">=</button>
+            </script>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
